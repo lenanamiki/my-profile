@@ -1,0 +1,20 @@
+.intro-container {
+  width: 64%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  padding: 16px;
+  margin-left: 24px;
+    .greeting {
+      color: white;
+      font-family: $headers-font;
+      font-size: 64px;
+      margin-bottom: 0;
+    }
+    .short-bio {
+      color: $dark-black;
+      font-family: $body-font;
+      font-size: 24px;
+      margin-bottom: 0;
+  }
+}
