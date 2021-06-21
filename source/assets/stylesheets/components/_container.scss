@@ -6,10 +6,11 @@
   padding: 16px;
   margin-left: 24px;
     .greeting {
-      color: white;
+      color: $white;
       font-family: $headers-font;
       font-size: 64px;
       margin-bottom: 0;
+      font-weight: 800;
     }
     .short-bio {
       color: $dark-black;
