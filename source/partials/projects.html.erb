@@ -1,2 +1,10 @@
-<div class="main-container">
+<div class="main-container" id="projects">
+  <% data.products.each do |product| %>
+    <div class="card-project">
+      <h3><%= product.name %> </h3>
+      <p><%= product.description %></p>
+      <img src="<%= image_path(product.image) %>" alt="">
+      <%= link_to "", product.url, class: "project-link" %>
+    </div>
+  <% end %>
 </div>

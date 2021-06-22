@@ -1,4 +1,14 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: BAIKU
+  description: Find paid and free user-suggested bike parkings near you
+  image: placeholder.png
+  url: https://www.baiku-official.com/
+
+- name: STUDIO FIND
+  description: Marketplace for studio-renting. Providing space for instructors and artists
+  image: placeholder.png
+  url: http://studio-find.herokuapp.com/
+
+- name: WATCH LIST
+  description: Create customized lists to save your favorite movies
+  image: placeholder.png
+  url: https://ln-watch-list.herokuapp.com/
