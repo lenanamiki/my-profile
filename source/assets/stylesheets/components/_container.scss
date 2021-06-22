@@ -4,64 +4,16 @@
   align-items: center;
 }
 
-.intro-container {
-  width: 64%;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  padding: 16px;
-  margin-left: 8px;
-    .greeting {
-      color: $white;
-      font-family: $headers-font;
-      font-size: 64px;
-      margin-bottom: 0;
-      font-weight: 800;
-    }
-    .short-bio {
-      color: $dark-black;
-      font-family: $body-font;
-      font-size: 20px;
-      margin-bottom: 0;
-  }
-}
-
-.cover-container {
-  border: 1px solid black;
-  margin: 0 auto;
-  margin-top: 160px;
-  padding: 32px;
-  height: 100vh;
-}
-
-.projects {
-  text-align: left;
-}
-
-.about {
-  text-align: right;
-}
-
-.contact {
+#home {
   text-align: center;
+  height: 90vh;
+  padding-top: 40px;
 }
 
-@media (min-width: 576px) {
-  .cover-container {
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .cover-container {
-    width: 80%;
-  }
-}
-
-@media (min-width: 992px) {
-  .cover-container {
-    width: 72%;
-  }
+.glossary {
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 64px;
 }
 
 
