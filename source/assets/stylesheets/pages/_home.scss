@@ -1,3 +1,36 @@
 body {
   background-color: $white;
+  color: $dark-black;
 }
+
+h1 {
+  font-family: $headers-font;
+  font-weight: 800;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 88px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 96px;
+  }
+}
+
+.links {
+  color: $gray;
+}
+
+.links:hover {
+  color: $dark-black;
+}
+
