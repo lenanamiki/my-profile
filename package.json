@@ -29,9 +29,9 @@
     "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.4.1",
     "bootstrap": "^4.5.2",
     "core-js": "^3.6.4",
-    "glider-js": "^1.7.7",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "terser-webpack-plugin": "^3.0.8"
