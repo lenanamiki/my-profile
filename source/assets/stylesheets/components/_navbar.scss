@@ -17,13 +17,13 @@
 //   margin: 8px;
 // }
 
-header
+nav
 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 24px;
+  height: 80px;
   z-index: 1000;
   display: flex;
   justify-content: flex-end;
@@ -33,8 +33,9 @@ header
 .toggle
 {
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 56px;
+  height: 56px;
+  margin: 24px 24px;
   // background: url(https://i.ibb.co/HrfVRcx/menu.png);
   // background-repeat: no-repeat;
   background-size: 30px;
@@ -80,7 +81,7 @@ header
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $gray;
+  background-color: $dark-black;
   font-family: $body-font;
 }
 
