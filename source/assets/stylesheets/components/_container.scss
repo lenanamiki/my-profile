@@ -1,5 +1,10 @@
+.content {
+  position: relative;
+  z-index: 10;
+}
+
 .main-container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 64px;
 }
@@ -16,7 +21,6 @@
 }
 
 .glossary {
-  width: 320px;
   margin: 0 auto;
   padding-top: 64px;
 }
@@ -50,5 +54,17 @@
   border-radius: 4px;
   padding: 4px 8px;
   margin: 2px;
+}
+
+@media (min-width: 320px) {
+  .glossary {
+    width: 100%;
+  }
+}
+
+@media (min-width: 375px) {
+  .glossary {
+    width: 320px;
+  }
 }
 
