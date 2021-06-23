@@ -20,10 +20,10 @@ activate :autoprefixer do |config|
 end
 
 activate :external_pipeline,
-         name: :webpack,
-         command: build? ? 'npm run build' : 'npm run start',
-         source: 'dist',
-         latency: 1
+  name: :webpack,
+  command: build? ? 'npm run build' : 'npm run start',
+  source: 'dist',
+  latency: 1
 
 page '/*.xml',  layout: false
 page '/*.json', layout: false
