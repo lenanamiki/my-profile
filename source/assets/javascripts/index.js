@@ -1,8 +1,10 @@
 import 'bootstrap';
 
-// Internal imports, e.g:
-import { initGlide } from 'plugins/init_glide';
+// navbar menu toggle
+const menuToggle = document.querySelector('.toggle');
+const page = document.querySelector('.page');
 
-document.addEventListener('load', () => {
-  initGlide();
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('.active');
+  page.classList.toggle('.active');
 });

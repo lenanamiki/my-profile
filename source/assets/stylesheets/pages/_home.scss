@@ -18,16 +18,30 @@ h3 {
   color: $gray;
   font-family: $headers-font;
   font-weight: 800;
-  font-size: 48px;
 }
 
 h3:hover {
   color: $dark-black;
 }
 
+@media (min-width: 320px) {
+  h1 {
+    font-size: 88px;
+  }
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 576px) {
   h1 {
     font-size: 128px;
+  }
+  h3 {
+    font-size: 48px;
   }
   p {
     font-size: 18px;
@@ -38,6 +52,9 @@ h3:hover {
   h1 {
     font-size: 136px;
   }
+  h3 {
+    font-size: 48px;
+  }
   p {
     font-size: 18px;
   }
@@ -46,6 +63,9 @@ h3:hover {
 @media (min-width: 992px) {
   h1 {
     font-size: 160px;
+  }
+  h3 {
+    font-size: 48px;
   }
   p {
     font-size: 20px;
