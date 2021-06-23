@@ -1,22 +1,24 @@
 <div class="main-container" id="about">
-  <h5>- about me -</h5>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-m-6 col-lg-4">
-        <div class="img-container">
-          <img src="../assets/images/profile.png" alt="profile image" id="profile-img">
-        </div>
-      </div>
-      <div class="col-sm-12 col-m-6 col-lg-8">
-        <div class="bio">
-          <div>
-            Hi, I’m Lena, a Full Stack Web Designer based in Japan. I also have experience as a digital marketer in the luxury fashion and beauty industry. I enjoy using design and code to bring innovative ideas to life.
+  <div>
+    <h5>- about me -</h5>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-m-6 col-lg-4">
+          <div class="img-container">
+            <img src="../assets/images/profile.png" alt="profile image" id="profile-img">
           </div>
-          <h5>- skills</h5>
-          <div class="skills-container">
-            <% data.skills.each do |skill| %>
-              <div class="skill"><%= skill.name %></div>
-            <% end %>
+        </div>
+        <div class="col-sm-12 col-m-6 col-lg-8">
+          <div class="bio">
+            <div>
+              Hi, I’m Lena, a Full Stack Web Designer based in Japan. I also have experience as a digital marketer in the luxury fashion and beauty industry. I enjoy using design and code to bring innovative ideas to life.
+            </div>
+            <h5>- skills</h5>
+            <div class="skills-container">
+              <% data.skills.each do |skill| %>
+                <div class="skill"><%= skill.name %></div>
+              <% end %>
+            </div>
           </div>
         </div>
       </div>
