@@ -2,9 +2,9 @@ import 'bootstrap';
 
 // navbar menu toggle
 const menuToggle = document.querySelector('.toggle');
-const page = document.querySelector('.page');
+const showcase = document.querySelector('.showcase');
 
 menuToggle.addEventListener('click', () => {
-  menuToggle.classList.toggle('.active');
-  page.classList.toggle('.active');
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
 });
