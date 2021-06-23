@@ -1,25 +1,8 @@
-// .nav-top {
-//   width: 100%;
-//   height: 10vh;
-//   padding: 8px;
-//   position: relative;
-//   ul {
-//     list-style: none;
-//     padding-left: 0px;
-//     margin-bottom: 0px;
-//     margin-right: 24px
-//   }
-// }
-
-// .nav-links {
-//   color: $white;
-//   display: inline-block;
-//   margin: 8px;
-// }
-
 nav
 {
-  position: absolute;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   top: 0;
   left: 0;
   width: 100%;
@@ -28,6 +11,7 @@ nav
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
 }
 
 .toggle
@@ -57,7 +41,7 @@ nav
   position: absolute;
   right: 0;
   width: 100%;
-  min-height: 100vh;
+  // min-height: 100vh;
   // display: flex;
   // justify-content: space-between;
   // align-items: center;
