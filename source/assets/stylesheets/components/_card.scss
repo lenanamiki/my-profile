@@ -1,11 +1,10 @@
 .carousel {
-  width: 100%;
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(10, 70vw);
+  grid-template-columns: repeat(3, 50vw);
   grid-template-rows: 1fr;
   grid-column-gap: 16px;
   overflow: scroll;
-  height: 100vh;
   scroll-snap-type: both mandatory;
   scroll-padding: 1rem;
 }
@@ -15,11 +14,12 @@
 }
 
 .card-project {
+  width: 80%;
   position: relative;
   scroll-snap-align: center;
   display: inline-block;
-  width: 80%;
   border: 1px solid blue;
+  padding: 24px;
   img {
     width: 100%;
     border: 1px solid black;

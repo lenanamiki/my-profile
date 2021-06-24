@@ -6,7 +6,8 @@
 .main-container {
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  padding: 8px;
+  margin: 16px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,9 +41,6 @@
   margin: 0 auto;
   border: 1px solid black;
   text-align: center;
-  img {
-    width: 600px;
-  }
 }
 
 .skills-container {
