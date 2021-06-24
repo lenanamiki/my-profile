@@ -1,8 +1,7 @@
 <div class="main-container" id="projects">
-  <h5>- projects -</h5>
-  <div>
+  <div class="carousel">
     <% data.products.each do |product| %>
-      <div class="card-project item">
+      <div class="card-project">
         <h3><%= product.name %></h3>
         <p><%= product.description %></p>
         <img src="<%= image_path(product.image) %>" alt="<%= product.name %>">
