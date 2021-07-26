@@ -1,12 +1,13 @@
 .carousel {
   width: 80%;
   display: grid;
-  grid-template-columns: repeat(3, 50vw);
+  grid-template-columns: repeat(10, 50vw);
   grid-template-rows: 1fr;
   grid-column-gap: 16px;
   overflow: scroll;
   scroll-snap-type: both mandatory;
   scroll-padding: 1rem;
+  background-color: $gray;
 }
 
 .card-active {
@@ -18,20 +19,10 @@
   position: relative;
   scroll-snap-align: center;
   display: inline-block;
-  border: 1px solid blue;
   padding: 24px;
   img {
     width: 100%;
-    border: 1px solid black;
   }
-}
-
-.project-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
 #title-projects {

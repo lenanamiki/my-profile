@@ -2,10 +2,9 @@
   <div class="carousel">
     <% data.products.each do |product| %>
       <div class="card-project">
-        <h3><%= product.name %></h3>
+        <p><%= product.name %></p>
         <p><%= product.description %></p>
         <img src="<%= image_path(product.image) %>" alt="<%= product.name %>">
-        <%= link_to "", product.url, class: "project-link" %>
       </div>
     <% end %>
   </div>
